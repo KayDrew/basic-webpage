@@ -5,26 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
   <title>Responsive Page Without A Framework</title>
-  
+  <link href="simple-grid.css" rel="stylesheet"/>
 </head>
+
+
 <body>
-<nav><a href="aboutmeframe.html">Page With CSS Framework</a></nav>
-<section class="profile">
+<div class="container">
+
+<section class="row">
+
+
+<div class="col-sm">
 <h1>Kabelo Drew Tshehla</h1>
+</div>
+
+<div class="col-sm">
 <image src="1661866581105.jpg" alt="my photo"/>
+  </div>
   
   </section>
   
   
-  <section class="dreamCity">
+  <section class="row">
   
+  <div class="col-sm">
   <h2>City I would like to visit</h2>
   <img src="images (20).jpeg" alt="a picture of the Effeil Tower"/>
+    </div>
+	
+  <div class="col-sm">
   <p>I hope to some day visit Paris for its exceptional and historical places,some of which are amongst the 7 wonders  of the world (ie the Eiffel Tower). Of more interest to me though, is the Louvre museum where some of Leonardo da Vinci's  famous paintings ate preserved.</p>
-  </section>  
+   </div>
+   
+   </section>  
   
-  
-  <section>
+ 
+  <section >
   
     <h2>Foreign Language</h2>
     <p>I would like to learn Spanish.I find it very interesting (and romantic, hehe). I also have hopes of visiting Mexico some day.</p>
@@ -57,44 +73,72 @@
       </tr>
   
     </table>
+	
   </section>
   
-  <section>
-
-    <article>
-      <h2>Historic Places in My City</h2>
+  <section id= class="row">
+  
+  <h2>Historic Places in My City</h2>
+  
+    <div id="union" class="col-4-sm">
+	
+	<div>
+    
       <h3>The Union Buildings</h3>
-      <img src="union.jpg" alt="Union Buildings"/>   <ul> 
+      <img src="me.jpg" alt="Union Buildings"/>
+
+</div>
+
+<div>
+	  <ul> 
        <h4>Interesting Facts About The UnionBuildings</h4>
        <li>They were designed and built by Herbert Baker and completed in 1913</li>
        <li>The outdoor  arena can accommodate up to 9000 people. </li>
        <li>The two wings represent English speaking and Afrikaans speaking people of South Africa. </li>
      </ul>
-   </article>
+	 </div>
+   </div>
 
-   <article>
+   <div id="ditsong" class="col-4-sm">
+   <div>
       <h3>Ditsong Museum of Natural History</h3>
       <img src="ditsong.jpg" alt="Ditsong"/>
+	  </div>
+	  
+	  <div>
       <ul> 
         <h4>Interesting Facts About Ditsong Museum</h4>
         <li>The museum was founded on 1 December 1892.</li>
         <li>It is one of the largest natural history museums in the country. </li>
         <li>There is a vast collection of fish,reptile, mammal and amphibian fossils and skins on display.</li>
       </ul>
-   </article>
+	  </div>
+   </div>
+   
 
-   <article>
+   <div id="ditsong" class="col-4-sm">
+    
+     <div>
       <h3>Sammy Marks Square</h3>
-      <img src="IMG_0098.JPG" alt="Sammy
+      <img src="sammy.JPG" alt="Sammy
       Marks Square"/>
+	   </div>
+	   
+	   <div>
       <ul> 
         <h4>Interesting Facts About Sammy Marks Square</h4>
         <li>The centre was built in neo-Dutch style.</li>
         <li>It has an annual foot count of 12 million</li>
         <li>There are 61 retail tenants in the centre.</li>
       </ul>
-   </article>
+	   </div> 
+	   
+	  </div>
+	  
+	  
+   </div>
    
   </section>
+  </div>
 </body>
 </html>

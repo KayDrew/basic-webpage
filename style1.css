@@ -11,30 +11,13 @@ font-family:Serif;
 background-color:rgb(50, 103, 121);
 color:cornsilk;
 margin: 0 auto;
-max-width:80%;
+max-width:90%;
 padding: 20px;
 
 
 }
 
-.places{	
-display:grid;
-grid-template-columns:1fr;
-justify-content:center;
-	
-}
 
-
-
-@media screen and (min-width:700px){
-	.places{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,3fr));
-text-align:center;
-justify-content:center;
-	
-	}	
-}
 
 
 
@@ -46,13 +29,66 @@ margin-top:37px;
 
 h1{
 	font-size:2.3em;
-	font-family:cursive;
-	
+	font-family:cursive;	
 	padding-right:20px;
 	
 }
 
+
+@media screen  and (max-width:700px){
+
+	
+
+	
+h1{
+	
+	text-align:center;
+	
+}
+
+#photo{
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+}
+
+#paris{
+	
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+}
+
+.container{
+	text-align:center;
+}
+
+		#ditsong{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	}
+
+
+
+}
+
+		#ditsong,#union,#sammy{
+		
+		display:flex;
+		
+	}
+	
 @media screen  and (min-width:700px){
+	
+
+
+	
+		.ditsong,.right{
+		float:right;
+	}
+	
+	.text,.left{float:left;}
+
 
 	#profile{
 		display: flex;
@@ -63,6 +99,7 @@ h1{
 	}
 h1{ 
 	font-size:3em;
+	
 }
 	#photo{	
 
@@ -70,19 +107,29 @@ float:left;
 width: 250px;
 	
 	}	
-}
-
-
-.city{
-	display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,2fr));
-}
-
-.paris{	
 	
+	.paris{
+		
+	display: flex;
+	flex-wrap:no-wrap;
+	
+	}
+	
+	#paristext{
+		float:right;
+	}
+	
+.places{
 	display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,2fr));
+	grid-template-columns: 1fr 1fr 1fr;
 }
+	
+
+}
+
+
+
+
 	img{
 	box-shadow:2px 2px 5px 5px rgba(255,255,255,0.6);
 
@@ -91,13 +138,19 @@ grid-template-columns:repeat(auto-fit,minmax(300px,2fr));
 #paris{
 	box-shadow:2px 2px 5px 5px rgba(255,255,255,0.6);
 	margin-top:20px;
+	margin-right:40px;
 	width: 300px;
 	
 	}
 
+
 table{
 	table-layout:fixed;
 border-spacing:0px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+width:80%;
 	
 }
 
@@ -117,7 +170,7 @@ border:1px solid white;
 h2,h3,h4{margin-top:37px;
 margin-bottom:17px;
 font-family:cursive;
-
+text-align:center;
 
 }
 

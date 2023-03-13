@@ -71,9 +71,7 @@ h1{
 .text{order:2;
 }
 	
-	.left{
-		margin-right:10px;
-	}
+
 }
 
 #ditsong,#union,#sammy{
@@ -86,7 +84,14 @@ display:flex;
 		float:right;
 	}
 	
-	.text,.left{float:left;}
+.text,.left{float:left;
+}
+
+	.left{
+		margin-right:10px;
+	}
+	
+	
 @media screen  and (min-width:700px){
 	
 

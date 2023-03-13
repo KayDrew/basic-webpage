@@ -38,7 +38,8 @@ h1{
 @media screen  and (max-width:700px){
 
 	
-
+	
+	
 	
 h1{
 	
@@ -63,31 +64,33 @@ h1{
 	text-align:center;
 }
 
-		#ditsong{
-	display:grid;
-	grid-template-columns:1fr 1fr;
-	}
 
-
-
+.ditsong{order:1;
 }
 
-		#ditsong,#union,#sammy{
-		
-		display:flex;
-		
+.text{order:2;
+}
+	
+	.left{
+		margin-right:10px;
 	}
-	
-@media screen  and (min-width:700px){
-	
+}
 
-
+#ditsong,#union,#sammy{
+		
+display:flex;
+		
+}
 	
-		.ditsong,.right{
+.ditsong,.right{
 		float:right;
 	}
 	
 	.text,.left{float:left;}
+@media screen  and (min-width:700px){
+	
+
+	
 
 
 	#profile{

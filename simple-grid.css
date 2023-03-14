@@ -72,21 +72,15 @@ p {
 
 /* POSITIONING */
 
-.left {
+.left,ditsongtext {
   text-align: left;
+ 
 }
 
-.right {
+.right, ditsong {
   text-align: right;
-  
-  
 }
 
-#union,#ditsong,#sammy{
-	
-	display:grid;
-	grid-template-columns: 1fr 1fr;
-}
 .center {
   text-align: center;
   margin-left: auto;
@@ -103,6 +97,8 @@ p {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  background:orange;
+  padding:60px;
 }
 
 .row {
@@ -129,7 +125,22 @@ p {
 .col-11,
 .col-12 {
   width: 96%;
+ 
 }
+
+.col-4{
+	
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+#paris{
+	
+	width:300px;
+}
+
+
 
 .col-1-sm {
   width: 4.33%;
@@ -191,7 +202,7 @@ p {
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -251,7 +262,7 @@ p {
 
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
-    width: 75%;
+    width: 100%;
     max-width: 60rem;
   }
 }

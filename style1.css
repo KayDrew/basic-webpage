@@ -10,9 +10,11 @@ font-family:Serif;
 .container{border: 1px solid rgb(150,150,200);
 background-color:rgb(50, 103, 121);
 color:cornsilk;
-margin: 0 auto;
+ margin-left: auto;
+  margin-right: auto;
 max-width:90%;
 padding: 20px;
+
 
 
 }
@@ -24,52 +26,93 @@ padding: 20px;
 #profile{
 	
 margin-top:37px;
-
-}
-
-h1{
-	font-size:2.3em;
-	font-family:cursive;	
-	padding-right:20px;
-	
-}
+padding-bottom:37px;
 
 
-@media screen  and (max-width:700px){
-
-	
-	
-	
-	
-h1{
-	
-	text-align:center;
-	
 }
 
 #photo{
 	margin-right:auto;
 	margin-left:auto;
 	display:block;
+
 }
+
+h1{
+	font-size:2.3em;
+	font-family:cursive;	
+	text-align:center;
+	
+}
+
+
+
+
+@media screen  and (max-width:700px){
+	
+	 img{
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+	
+	.ditsong{order:1;
+
+}
+
+.text{order:2;
+
+}
+
 
 #paris{
 	
-	margin-right:auto;
 	margin-left:auto;
-	display:block;
+		margin-right:auto;
+display:block;		
 }
+	
+	.container{
+	text-align:center;
+	
+}
+	
+}
+
+
+
+@media screen and (min-width:700px)  and (max-width:1225px){
+	
+	
+	
+h1{
+	
+	text-align:center;
+	
+}
+
+
 
 .container{
 	text-align:center;
+	width:70%;
+	
 }
 
 
 .ditsong{order:1;
+
 }
 
 .text{order:2;
+
 }
+
+.history{margin-left:70px;}
+
+.right{margin-right:20px;}
+
+
 	
 
 }
@@ -77,6 +120,9 @@ h1{
 #ditsong,#union,#sammy{
 		
 display:flex;
+flex-wrap:row;
+text-align:left;
+
 		
 }
 	
@@ -87,15 +133,18 @@ display:flex;
 .text,.left{float:left;
 }
 
-	.left{
-		margin-right:10px;
+	.left,.text{
+		margin-right:20px;
 	}
 	
 	
-@media screen  and (min-width:700px){
+		
+	
+	
+@media screen  and (min-width:1225px){
 	
 
-	
+
 
 
 	#profile{
@@ -139,7 +188,7 @@ width: 250px;
 
 
 	img{
-	box-shadow:2px 2px 5px 5px rgba(255,255,255,0.6);
+	box-shadow:1px 1px 4px 4px rgba(255,255,255,0.6);
 
 	}
 

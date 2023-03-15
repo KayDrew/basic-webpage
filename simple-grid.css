@@ -22,7 +22,7 @@ body {
 
 * {
   font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
+  color:rgb(255,255,255);;
   line-height: 1.5;
 }
 
@@ -97,8 +97,9 @@ p {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background:orange;
+  background:rgba(251,86,7,0.7);
   padding:60px;
+
 }
 
 .row {
@@ -125,6 +126,7 @@ p {
 .col-11,
 .col-12 {
   width: 96%;
+  
  
 }
 
@@ -204,9 +206,11 @@ p {
   .container {
     width: 90%;
   }
+  
+  
 }
 
-@media only screen and (min-width: 45em) {  /* 720px */
+@media only screen and (min-width: 68em) {  /* 720px */
   .col-1 {
     width: 4.33%;
   }
@@ -221,6 +225,7 @@ p {
 
   .col-4 {
     width: 29.33%;
+	
   }
 
   .col-5 {
@@ -260,9 +265,10 @@ p {
   }
 }
 
-@media only screen and (min-width: 60em) { /* 960px */
+@media only screen and (min-width: 70em) { /* 960px */
   .container {
     width: 100%;
     max-width: 60rem;
+	
   }
 }
